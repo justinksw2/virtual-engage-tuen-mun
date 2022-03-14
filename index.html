@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<!--
+    Arup Virtual Engage (Est 2017), Copyright 2020
+    https://www.arup.com
+  -->
+<html>
+
+<head>
+  <title>東涌綫延綫 Tung Chung Line Extension</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+  <!--  <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />-->
+  <!--  target-densitydpi=device-dpi,已廢棄 所以刪除-->
+
+  <!-- Not Public
+  <meta name="robots" content="none, noarchive">
+  <meta name="googlebot" content="none, noarchive">
+-->
+  <!-- Favicons -->
+  <link rel="icon" href="web-icon.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="web-icon.png" type="image/x-icon" />
+  <link rel="web-icon.png" href="web-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="東涌綫延綫 Tung Chung Line Extension">
+  <link rel="shortcut icon" sizes="16x16" href="web-icon.png">
+  <link rel="shortcut icon" sizes="196x196" href="web-icon.png">
+  <link rel="Tung-Chung" href="web-icon.png">
+  <meta name="keywords"
+    content="東涌綫延綫, 東涌線延線, Tung Chung Line Extension, 東涌線, 東涌綫, Tung Chung Line, 東涌東, Tung Chung East, 東涌西, Tung Chung West, 東涌東站, Tung Chung East Station, 東涌西站, Tung Chung West Station, 虛擬資訊中心, Virtual Information Centre, 港鐵項目, MTR Project, 東涌, Tung Chung" />
+  <meta name="description"
+    content="歡迎到訪東涌綫延綫虛擬資訊中心，瞭解工程的詳情。興建東涌東站和東涌西站及相關鐵路段等工程預計於2029年竣工。Welcome to the virtual information centre of the Tung Chung Line Extension for information. Construction of Tung Chung East Station and Tung Chung West Station, and associated railways under the Tung Chung Line Extension is expected to complete by 2029." />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="東涌綫延綫虛擬資訊中心 Virtual Information Centre of Tung Chung Line Extension" />
+  <meta property="og:site_name" content="東涌綫延綫 Tung Chung Line Extension" />
+  <meta property="og:locale" content="en_GB" />
+  <meta property="og:url" content="https://virtualengage.arup.com/arup-digital" />
+  <meta property="og:image" content="https://tungchunglineextension.virtual-engage.com/img/social-media.png" />
+  <meta property="og:image:alt" content="" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@ArupGroup">
+  <meta name="twitter:title" content="東涌綫延綫 Tung Chung Line Extension">
+  <meta name="twitter:description" content="東涌綫延綫虛擬資訊中心 Virtual Information Centre of Tung Chung Line Extension">
+  <meta name="twitter:creator" content="@ArupGroup">
+  <meta name="twitter:image:src" content="https://tungchunglineextension.virtual-engage.com/img/social-media.png">
+  <meta name="twitter:image:alt" content="東涌綫延綫 Tung Chung Line Extension">
+  <meta name="twitter:domain" content="https://virtualengage.arup.com">
+  <script type="text/javascript" src="js/cookie/js.cookie.min.js"></script>
+
+  <style>
+    @-ms-viewport {
+      width: device-width;
+    }
+
+    /*#showExhibition{*/
+    /*  position: fixed;*/
+    /*  top: 25%;*/
+    /*  left: 50%;*/
+    /*  transform: translate(-50%, -25%) scale(0);*/
+    /*  transition: 200ms ease-in-out;*/
+    /*  border-radius: 30px;*/
+    /*  z-index: 60;*/
+    /*  background-color: white;*/
+    /*  width: 726px;*/
+    /*  !* height: 1162px; *!*/
+    /*  max-width: 80%;*/
+    /*  max-height: 100%;*/
+    /*  font-size: 20px;*/
+    /*  overflow: auto;*/
+    /*}*/
+    /*#showExhibition.active {*/
+    /*  transform: translate(-50%, -25%) scale(1);*/
+    /*}*/
+  </style>
+  <link rel="stylesheet" href="vendor/reset.min.css">
+  <link rel="stylesheet" href="vendor/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="multiple-scenes view-control-buttons">
+  <div id="pano"></div>
+  <!--  在这里配360名字-->
+  <div id="sceneList">
+    <ul class="scenes">
+      <a tabindex="-1" href="javascript:void(0)" class="scene" data-id="Tung Chung Chi">
+        <!-- <li class="text">Small Room</li> -->
+      </a>
+      <a tabindex="-1" href="javascript:void(0)" class="scene" data-id="Tung Chung Eng">
+        <!-- <li class="text">Large Room</li> -->
+      </a>
+    </ul>
+  </div>
+
+  <a href="javascript:void(0)" id="sceneListToggle">
+    <img class="icon off" src="img/expand.png">
+    <img class="icon on" src="img/collapse.png">
+  </a>
+  <!-- Fancy -->
+  <script src="fancybox/dist/jquery.min.js"></script>
+  <link rel="stylesheet" href="fancybox/dist/jquery.fancybox.min.css" />
+  <script src="fancybox/dist/jquery.fancybox.min.js"></script>
+
+  <!--  CSS FILE-->
+  <link rel="stylesheet" href="css/language/language.css">
+  <link rel="stylesheet" href="css/welcome-girl/welcome-girl.css">
+  <link rel="stylesheet" href="css/welcome-popup/welcome-popup.css">
+  <link rel="stylesheet" href="css/cookies-menu/cookies-menu.css">
+  <link rel="stylesheet" href="css/nav/nav.css">
+
+  <link rel="stylesheet" href="css/initial-popup/initial-popup.css">
+
+
+  <!--  GIGI WELCOME -------------------------------------------------------------o'v-------------------------------------------------------------->
+  <div id="language" class="language">
+    <span class="language_CH">中文</span>
+    /
+    <span class="language_EN">Eng</span>
+  </div>
+  <audio src="music/instrumental-version.mp3" controls="controls" id="instrumental" hidden="true" loop="loop"></audio>
+
+
+  <!-- INITIAL POPUP -->
+
+  <div id="lan_CH2" class="lan_CH">
+    <div id="justin1" class="welcome2">
+      <div class="welcome2-header">
+        <div title="title2">
+        </div>
+        <button data-close-button="#justin1" class="close-button2 welcome2-close">&times;</button>
+      </div>
+      <div class="welcome2-body">
+        <div class="welcome2-content">
+          <div class="welcome2-text">
+            <p>歡迎到訪東涌綫延綫虛擬資訊中心，了解本項目最新資訊。</p>
+            <br>
+            <p>東涌綫延綫項目亦已正式刊憲。歡迎參閱相關文件了解詳情。</p>
+          </div>
+        </div>
+        <div class="operation2">
+          <div class="operation2Left welcome2Left">
+            <img src="img/icons/Room Icons-17.svg" alt="">
+            <span style="margin-left: 10px;">參觀虛擬資訊中心</span>
+          </div>
+          <div class="operation2Left welcome2Right">
+            <span style="margin-right: 10px;"
+              onclick="window.location.href='https://www.hyd.gov.hk/tc/road_and_railway/railway_projects/tcle/index.html'">參閲刊憲文件</span>
+            <img src="img/icons/Room Icons-18.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="lan_EN2" class="lan_EN">
+    <div id="justin2" class="welcome2">
+      <div class="welcome2-header">
+        <div title="title2">
+        </div>
+        <button data-close-button="#justin2" class="close-button2 welcome2-close">&times;</button>
+      </div>
+      <div class="welcome2-body">
+        <div class="welcome2-content">
+          <div class="welcome2-text">
+            <p>Welcome to the virtual information centre of the Tung Chung Line Extension project, you can find the
+              latest
+              information of the project here.</p>
+            <br>
+            <p>The Tung Chung Line Extension project has also been gazetted, you are welcome to read the related
+              documents
+              for more information.</p>
+            <br>
+          </div>
+        </div>
+        <div class="operation2">
+          <div class="operation2Left welcome2Left">
+            <img src="img/icons/Room Icons-17.svg" alt="">
+            <span style="margin-left: 10px;">Visit the virtual information centre</span>
+          </div>
+          <div class="operation2Left welcome2Right">
+            <span style="margin-right: 10px;"
+              onclick="window.location.href='https://www.hyd.gov.hk/en/road_and_railway/railway_projects/tcle/index.html'">Read
+              the gazettal documents</span>
+            <img src="img/icons/Room Icons-18.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- END INITIAL POPUP -->
+
+
+  <!--  <div id="showExhibition">-->
+  <!--    <div class="modal-header">-->
+  <!--      <div class="title">-->
+  <!--      </div>-->
+  <!--      <button data-close-button="#showExhibition" class="close-button">&times;</button>-->
+  <!--    </div>-->
+  <!--    <img src="img/PopupWindow.png" alt="" style="width: 100%">-->
+  <!--  </div>-->
+
+  <div id="lan_CH" class="lan_CH">
+    <!-- <div class="lan_CH"> -->
+    <div id="joey" class="welcome">
+      <div class="welcome-header">
+        <div class="title">
+        </div>
+        <button data-close-button="#joey" class="close-button welcome-close">&times;</button>
+      </div>
+      <!-- <div class="welcome-body welcomePage1">
+        <div class="welcome-content">
+          <div class="welcome-text">
+            <h2 class="hello">Hello! </h2>
+            <p>歡迎到訪東涌綫延綫的虛擬資訊中心，瞭解本工程的詳情。場內的資料會因應進度而不時更新。我是你的導賞員 Gigi。</p>
+            <p>東涌綫延綫項目亦已正式刊憲。歡迎參閲相關文件了解詳情。</p>
+          </div>
+        </div>
+        <div class="operation">
+          <div class="operationLeft welcomeLeft">
+            <img src="img/icons/Room Icons-18.svg" alt="">
+            <span style="margin-left: 10px;"
+              onclick="window.location.href='https://www.hyd.gov.hk/tc/road_and_railway/railway_projects/tcle/index.html'">參閲刊憲文件</span>
+          </div>
+          <div class="operationLeft welcomeRight" id="welcomeRight">
+            <span style="margin-right: 10px;">導覽資訊中心</span>
+            <img src="img/icons/Room Icons-17.svg" alt="">
+          </div>
+        </div>
+      </div> -->
+      <div class="welcome-body welcomePage1">
+        <div class="welcome-content">
+          <div class="welcome-text">
+            <p>Hello! 我是你的導賞員 Gigi。這次旅程，我會帶您細看東涌多年來的發展和未來路向，逐步了解鐵路如何帶動社區。</p>
+          </div>
+        </div>
+        <div class="operation">
+          <div class="welcomeStart">
+            <div class="panelList">
+              <a data-fancybox="panel" data-caption="東涌。與鐵路前行" href="img/panels/Chi/P1.jpg" tabindex="55"
+                class="operationRight">
+                <p style="margin-right: 10px;">開始</p>
+                <img src="img/icons/operationRight.png" alt="">
+              </a>
+              <div style="display: none;">
+                <a data-fancybox="panel" href="img/panels/Chi/P2.jpg" tabindex="-1" data-caption="下一站。煥然東涌"></a>
+                <a data-fancybox="panel" href="img/panels/Chi/P3.jpg" tabindex="-1" data-caption="東涌綫延綫"></a>
+                <a data-fancybox="panel" href="img/panels/Chi/P4.jpg" tabindex="-1" data-caption="鐵路。帶動社區各方面"></a>
+                <a data-fancybox="panel" href="img/panels/Chi/P5.jpg" tabindex="-1" data-caption="綠「識」東涌"></a>
+                <a data-fancybox="panel" href="img/panels/Chi/P6.jpg" tabindex="-1" data-caption="時間表"></a>
+                <!--              <a data-fancybox="panel" href="img/panels/Chi/P7.jpg" tabindex="-1" data-caption="時間表" ></a>-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--      <img src="gif/Gigi-Blink-Master-File.gif" alt="" class="welcome-gif">-->
+      </div>
+      <div class="welcome-body welcomePage2">
+        <div class="welcome-content">
+          <div class="welcome-text">
+            <p>希望藉著這次旅程，可以增加您對東涌綫延綫的認識。</p>
+            <p>場內還設有立體模型及其他多媒體內容，歡迎自由參觀，了解東涌綫延綫。</p>
+            <p>我們會因應進度而不時更新場內的資料，歡迎您再次蒞臨參觀。</p>
+          </div>
+        </div>
+      </div>
+      <img src="gif/Gigi-Blink-Master-File.gif" alt="" class="welcome-gif">
+    </div>
+  </div>
+  <div id="lan_EN" class="lan_EN">
+    <div class="welcome">
+      <div class="welcome-header">
+        <div class="title">
+        </div>
+        <button data-close-button="#joey" class="close-button welcome-close">&times;</button>
+      </div>
+      <!-- <div class="welcome-body welcomePage1">
+        <div class="welcome-content">
+          <div class="welcome-text">
+            <h2 class="hello">Hello!</h2>
+            <p>Welcome to the virtual information centre of the Tung Chung Line Extension project, you can find the
+              latest information of the project here. I am your tour guide, Gigi.</p>
+            <p>The Tung Chung Line Extension project has also been gazetted, you are welcome to read the related
+              documents for more information.</p>
+          </div>
+        </div>
+        <div class="operation">
+          <div class="operationLeft welcomeLeft">
+            <img src="img/icons/Room Icons-18.svg" alt="">
+            <span style="margin-left: 10px;"
+              onclick="window.location.href='https://www.hyd.gov.hk/en/road_and_railway/railway_projects/tcle/index.html';">Read
+              the gazettal documents</span>
+          </div>
+          <div class="operationLeft welcomeRight">
+            <span style="margin-right: 10px;">Tour the Centre</span>
+            <img src="img/icons/Room Icons-17.svg" alt="">
+          </div>
+        </div>
+      </div> -->
+      <div class="welcome-body welcomePage1">
+        <div class="welcome-content">
+          <div class="welcome-text">
+            <p>Hello! I am your tour guide, Gigi. Through this tour, I am going to show you how Tung Chung has developed
+              throughout the years and its development plan, and to understand how railway projects are driving the
+              community.</p>
+          </div>
+        </div>
+        <div class="operation">
+          <div class="welcomeStart">
+            <div class="panelList">
+              <a data-fancybox="panel" data-caption="Tung Chung – Advancing alongside the railway"
+                href="img/panels/Eng/P1.jpg" tabindex="55" class="operationRight">
+                <span style="margin-right: 10px;">Start</span>
+                <img src="img/icons/operationRight.png" alt="">
+              </a>
+              <div style="display: none;">
+                <a data-fancybox="panel" href="img/panels/Eng/P2.jpg" tabindex="-1"
+                  data-caption="Train to a New Tung Chung is Arriving"></a>
+                <a data-fancybox="panel" href="img/panels/Eng/P3.jpg" tabindex="-1"
+                  data-caption="Tung Chung Line Extension"></a>
+                <a data-fancybox="panel" href="img/panels/Eng/P4.jpg" tabindex="-1"
+                  data-caption="Railway – Promoting all Aspects of Community Life"></a>
+                <a data-fancybox="panel" href="img/panels/Eng/P5.jpg" tabindex="-1"
+                  data-caption="Learn about Green Tung Chung"></a>
+                <a data-fancybox="panel" href="img/panels/Eng/P6.jpg" tabindex="-1" data-caption="Timetable"></a>
+                <!--              <a data-fancybox="panel" href="img/panels/Eng/P7.jpg" tabindex="-1" data-caption="Timetable" ></a>-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--      <img src="gif/Gigi-Blink-Master-File.gif" alt="" class="welcome-gif">-->
+      </div>
+      <div class="welcome-body welcomePage2">
+        <div class="welcome-content">
+          <div class="welcome-text">
+            <p>I hope this tour helps you to get familiar with the Tung Chung Line Extension. </p>
+            <p>There are also 3D models and videos waiting for you in the room! Let’s learn more about the Tung Chung
+              Line Extension. </p>
+            <p>We will update the information in the room from time to time subject to the progress. Come check out our
+              virtual information center again!</p>
+          </div>
+        </div>
+      </div>
+      <img src="gif/Gigi-Blink-Master-File.gif" alt="" class="welcome-gif">
+    </div>
+  </div>
+
+  <!-- WELCOME POPUP -------------------------------------------------------------o'v------------------------------------------------------------------------------------------------------------------------------------->
+
+  <div>
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="title">
+        </div>
+        <button data-close-button="#modal" class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        <!-- <hr class="horizontal-rule"> -->
+        <section class="content_CH">
+          <div class="block">
+            <h2 class="heading">操作指引</h2>
+          </div>
+          <div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Left.png">
+              <p>在房間內向左轉</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Information.png">
+              <p>項目背景資料及參觀各展示內容的指引</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Settings.png">
+              <p>關於cookies和私隱政策的資料</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Navicon_Feedback_Grn.svg">
+              <p>在房間內留言或查詢項目</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Wayfinding.png">
+              <p>在房間內移動至指定位置</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Right.png">
+              <p>在房間內向右轉</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Feedback.png">
+              <p>在房間內留言或查詢項目資料</p>
+
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/View.png">
+              <p>代表圖片、橫額或海報，點擊可以全螢幕觀看靜態顯示。螢幕上的設定可控制縮放和移動。</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Play.png">
+              <p>代表影片，點擊會自動開啟影片播放器。</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Booklet.png">
+              <p>代表可攜式文件格式，點擊可以全螢幕觀看靜態顯示。</p>
+            </div>
+          </div>
+        </section>
+        <section class="content_CH">
+          <div class="block">
+            <h2 class="heading">瀏覽指引</h2>
+            <img class="branding" src="img/welcome-banner/Keyboard.svg" alt="Kincardine">
+          </div>
+          <div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Key_Close.svg">
+              <p>關閉頁面</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Key_Open.svg">
+              <p>開啟已選的熱點</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Key_Tab.svg">
+              <p>移動至下一個熱點</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Navicon_Cookie.svg">
+              <p>開啟cookies 政策和私隱聲明</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Navicon_Feedback_Grn.svg">
+              <p>以頁面開啟意見表</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Navicon_Info.svg">
+              <p>開啟歡迎訊息</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Navicon_Left.svg">
+              <p>往左移動視線</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Navicon_Right.svg">
+              <p>往右移動視線</p>
+            </div>
+          </div>
+        </section>
+        <section class="content_EN">
+          <div class="block">
+            <h2 class="heading">Navigation</h2>
+          </div>
+          <div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Left.png">
+              <p>Allows the user to pan around the room to the left.</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Information.png">
+              <p>Provides background information on the project and provides assistance on how to access the different
+                content provided.</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Settings.png">
+              <p>Provides information about the cookies and privacy policy.</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Navicon_Feedback_Grn.svg">
+              <p>Allows the user to leave a comment or question concerning a project in the room.</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Wayfinding.png">
+              <p>Allows the user to move to that location in the room.</p>
+            </div>
+            <!-- <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Inspect.png">
+              <p>Allows the user to zoom to that specific banner.</p>
+            </div>  -->
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Right.png">
+              <p>Allows the user to pan round the image to the right.</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Feedback.png">
+              <p>Allows the user to leave a comment or question concerning a project in the room.</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/View.png">
+              <p>Represents images, banners or posters, which when clicked will display static content in full <br />
+                screen. You can zoom and pan using the on screen controls.</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Play.png">
+              <p>Represents video content, which will automatically load a video player.</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Booklet.png">
+              <p>Represents a pdf document, which when clicked will display static content in full screen.</p>
+            </div>
+            <!-- <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Radial.png">
+              <p>Represents a 3D model which can be viewed using augmented reality.</p>
+            </div> -->
+            <!-- <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Radial.png">
+              <p>Represents a 360 image.</p>
+            </div> -->
+          </div>
+        </section>
+        <section class="content_EN">
+          <div class="block">
+            <h2 class="heading">Accessibility</h2>
+            <img class="branding" src="img/welcome-banner/Keyboard.svg" alt="Kincardine">
+          </div>
+          <div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Key_Close.svg">
+              <p>Closes the iframe open.</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Key_Open.svg">
+              <p>Opens the hotspot which is selected</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Key_Tab.svg">
+              <p>Moves to the next hotspot</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Navicon_Cookie.svg">
+              <p>Opens the cookie policy and privacy notice</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Navicon_Feedback_Grn.svg">
+              <p>Opens the feedback form in an iframe</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Navicon_Info.svg">
+              <p>Opens the welcome pop up.</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Navicon_Left.svg">
+              <p>Moves the view point to the left.</p>
+            </div>
+            <div class="block icon-box">
+              <img class="icon-img" src="img/welcome-banner/Navicon_Right.svg">
+              <p>Moves the view point to the right.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div id="overlay-welcome"></div>
+
+  <!-- COOKIES MENU -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <div class="cookies-Ch">
+    <div id="cookiesMenu" class="ct-sidenav">
+      <a tabindex="-1" href="javascript:void(0)" class="btnCookiesMenu" id="sidenav-toggle">×</a>
+      <div class="content_CH">
+        <div class="inner">
+          <div class="ct-footer-header">
+            Cookie偏好
+          </div>
+          <div class="separator"></div>
+          <div class="address">
+            <span>我們與合作伙伴在本網站運用cookies等技術，提升閣下的瀏覽體驗、提供個人化內容和廣告、提供社交媒體功能及分析網站流量。請點擊以下並同意我們在本網站上運用此技術。請參閱我們的Cookie政策以了解更多詳情或隨時更改閣下的意願。</span>
+          </div>
+          <div>
+            <a tabindex="-1" href="javascript:void(0)" class="accept-button" id="acceptAll" name="acceptAll">接受建議設定</a>
+          </div>
+          <div class="address">
+            <span>將自動將以下所有開關切換成「開」。</span>
+          </div>
+        </div>
+        <br />
+        <p></p>
+        <div class="inner">
+          <div class="ct-footer-header">
+            必要性
+          </div>
+          <div class="separator"></div>
+          <div class="address">
+            <span>必要性cookies能發揮網站的主要功能，如頁面導航和到訪安全範圍。如缺乏這些cookies，網站將無法正常運作。閣下能通過改變瀏覽器偏好來關閉這些cookies。</span>
+          </div>
+        </div>
+        <br />
+        <div class="inner">
+          <div class="ct-footer-header">
+            效能性
+            <label class="switch">
+              <input name="performance" type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="separator"></div>
+          <div class="address">
+            <span>效能性cookies透過收集和報告本網站的用量資料來協助我們改善網站，例如網站中較多流量的網頁。 </span>
+          </div>
+        </div>
+        <br />
+        <div class="inner">
+          <div class="ct-footer-header">
+            私隱資料
+          </div>
+          <div class="separator"></div>
+          <div class="address">
+            <span>請參閱以下有關私隱的相關連結：</span>
+          </div>
+          <div class="address">
+            <span><a tabindex="-1" href="https://virtualengage.arup.com/cookies"
+                target="_blank">奧雅納虛擬體驗Cookie政策</a></span>
+          </div>
+          <div class="address">
+            <span><a tabindex="-1" href="https://virtualengage.arup.com/privacy-policy"
+                target="_blank">奧雅納虛擬體驗私隱聲明</a></span>
+          </div>
+        </div>
+      </div>
+      <div class="content_EN">
+        <div class="inner">
+          <div class="ct-footer-header">
+            Cookie Preferences
+          </div>
+          <div class="separator"></div>
+          <div class="address">
+            <span>We and our partners use technologies such as a cookies on our site to enhance your user experience,
+              personalise content and ads, provide social media features, and analyse our traffic. Click below to
+              consent to the use of this technology on our site. For further details or to change your consent choices
+              at any time - see our Cookie Policy.</span>
+          </div>
+          <div>
+            <a tabindex="-1" href="javascript:void(0)" class="accept-button" id="acceptAll" name="acceptAll">Accept
+              recommended settings</a>
+          </div>
+          <div class="address">
+            <span>This will automatically switch all toggles below to "ON".</span>
+          </div>
+        </div>
+        <br />
+        <p></p>
+        <div class="inner">
+          <div class="ct-footer-header">
+            Essential
+          </div>
+          <div class="separator"></div>
+          <div class="address">
+            <span>Essential cookies enable core functionality such as page navigation and access to secure areas. The
+              website cannot function properly without these cookies; they can only be disabled by changing your browser
+              preferences.</span>
+          </div>
+        </div>
+        <br />
+        <div class="inner">
+          <div class="ct-footer-header">
+            Performance
+            <label class="switch">
+              <input name="performance" type="checkbox" checked>
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <div class="separator"></div>
+          <div class="address">
+            <span>Performance cookies help us to improve our website by collecting and reporting information on its
+              usage (for example, which of our pages are most frequently visited).</span>
+          </div>
+        </div>
+        <br />
+        <div class="inner">
+          <div class="ct-footer-header">
+            Privacy Information
+          </div>
+          <div class="separator"></div>
+          <div class="address">
+            <span>See below for relevant links regarding privacy:</span>
+          </div>
+          <div class="address">
+            <span><a tabindex="-1" href="https://virtualengage.arup.com/cookies" target="_blank">Arup Virtual Engage
+                Cookie Policy</a></span>
+          </div>
+          <div class="address">
+            <span><a tabindex="-1" href="https://virtualengage.arup.com/privacy-policy" target="_blank">Arup Virtual
+                Engage Privacy Notice</a></span>
+          </div>
+          <!-- <div class="address">
+            <span><a tabindex="-1" href="https://www.coalfields-regen.org.uk/wp-content/uploads/2019/07/CRT_Privacy_Policy_V1.pdf" target="_blank">Coalfields Regeneration Trust Privacy Notice</a></span>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="overlay-cookies"></div>
+
+  <!-- NAVIGATION BAR -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <div class="nav-mobile">
+    <a href="javascript:void(0)" class="btnCookiesMenu view-control-button-mobile">
+      <img class="icon" src="img/nav/settings.svg">
+    </a>
+    <a href="javascript:void(0)" data-modal-target="#modal" class="view-control-button-mobile">
+      <img class="icon" src="img/nav/info.svg">
+    </a>
+    <a data-fancybox data-height="100%" data-type="iframe" data-src="https://forms.office.com/r/79e5xbR3mx"
+      href="javascript:;" class="view-control-button-mobile">
+      <img class="icon" src="img/nav/Icons-feedback.svg">
+    </a>
+    <a data-fancybox data-height="100%" href="javascript:void(0);" class="view-control-button-mobile changeLanguage">
+      <img class="icon" src="img/nav/Icons-language.svg">
+    </a>
+    <a tabindex="-1" href="javascript:void(0)" class="view-control-button-mobile" onclick="playOrPaused()">
+      <img class="icon" id="music-on-mobile" src="img/nav/music-on.svg">
+      <img class="icon" id="music-off-mobile" src="img/nav/music-off.svg">
+    </a>
+  </div>
+  <div class="nav">
+    <!--    <div class="brand">-->
+    <!--      <img class="logo" src="img/nav/logo.svg">-->
+    <!--    </div>-->
+    <div class="view-control-buttons">
+      <a tabindex="-1" href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-1">
+        <img class="icon" src="img/nav/left.svg">
+        <span class="tooltiptext content_CH">轉左</span>
+        <span class="tooltiptext content_EN">Left</span>
+      </a>
+      <a tabindex="-1" href="javascript:void(0)" data-modal-target="#modal"
+        class="viewControlButton viewControlButton-2">
+        <img class="icon" src="img/nav/info.svg">
+        <span class="tooltiptext content_CH">資訊</span>
+        <span class="tooltiptext content_EN">Information</span>
+      </a>
+      <a tabindex="-1" href="javascript:void(0)" class="btnCookiesMenu viewControlButton viewControlButton-3">
+        <img class="icon" src="img/nav/settings.svg">
+        <span class="tooltiptext content_CH">設定</span>
+        <span class="tooltiptext content_EN">Settings</span>
+      </a>
+      <a tabindex="-1" href="javascript:void(0)" data-fancybox data-type="iframe"
+        data-src="https://forms.office.com/r/79e5xbR3mx" id="viewIn" class="viewControlButton viewControlButton-4">
+        <img class="icon" src="img/nav/Icons-feedback.svg">
+        <span class="tooltiptext content_CH">意見/查詢</span>
+        <span class="tooltiptext content_EN">Feedback/Enquiry</span>
+      </a>
+      <a tabindex="-1" href="javascript:void(0)" class="viewControlButton viewControlButton-5 changeLanguage">
+        <img class="icon" src="img/nav/Icons-language.svg">
+        <span class="tooltiptext content_CH">English</span>
+        <span class="tooltiptext content_EN">中文</span>
+      </a>
+      <a tabindex="-1" href="javascript:void(0)" class="viewControlButton viewControlButton-6" onclick="playOrPaused()">
+        <img class="icon" id="music-on" src="img/nav/music-on.svg">
+        <img class="icon" id="music-off" src="img/nav/music-off.svg">
+        <span class="tooltiptext content_CH">音樂</span>
+        <span class="tooltiptext content_EN">Music</span>
+      </a>
+      <a tabindex="-1" href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-7">
+        <img class="icon" src="img/nav/right.svg">
+        <span class="tooltiptext content_CH">轉右</span>
+        <span class="tooltiptext content_EN">Right</span>
+      </a>
+    </div>
+    <!-- <div class="chat">
+      <a tabindex="-1" href="#" onclick="LC_API.open_chat_window();return false;">
+        <img class="icon" src="img/nav/chat.svg">
+      </a>
+    </div> -->
+  </div>
+
+  <!-- GOOGLE ANALYTICS -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-167289944-71"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-167289944-71', { 'anonymize_ip': true });
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-66DNFQHC22"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-66DNFQHC22');
+  </script>
+
+  <!-- VENDOR SCRIPTS -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <script src="vendor/customEventPolyfill.js"></script>
+  <script src="vendor/findPolyfill.js"></script>
+  <script src="vendor/es5-shim.js"></script>
+  <script src="vendor/eventShim.js"></script>
+  <script src="vendor/classList.js"></script>
+  <script src="vendor/requestAnimationFrame.js"></script>
+  <script src="vendor/screenfull.min.js"></script>
+  <script src="vendor/bowser.min.js"></script>
+  <script src="vendor/nodeListForEachPolyfill.js"></script>
+  <script src="vendor/marzipano080.js"></script>
+  <script src="vendor/jquery.min.js"></script>
+  <script src="vendor/fancybox/jquery.fancybox.min.js"></script>
+
+
+  <!-- POPUP, COOKIES & NAV SCRIPTS -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+  <script src="js/combined-popups/combined-popups.js"></script>
+  <script src="js/presentation/presentation.js"></script>
+  <script src="js/welcome-girl/welcome-girl.js"></script>
+  <script src="data.js"></script>
+  <script src="index.js"></script>
+
+  <script src="js/initial-popup/initial-popup.js"></script>
+
+  <script type="application/javascript">
+
+    let indexLan = 0;
+    //如果有記錄語言
+    if (sessionStorage.getItem('MTRLANGUAGE')) {
+      indexLan = sessionStorage.getItem('MTRLANGUAGE').substring(7);
+    } else {
+      $('#language').addClass('active');
+      // $('#showExhibition').addClass('active');
+    }
+
+
+    let lan = sessionStorage.getItem('MTRLANGUAGE') || 'lan_CH_0';
+    initFn(lan);
+    function initFn(lan) {
+
+      let content_EN = document.getElementsByClassName('content_EN');
+      let content_CH = document.getElementsByClassName('content_CH');
+
+      //初始化
+      if (lan != 'lan_CH_0') { //英文
+        //切換welcome
+        document.getElementById('lan_EN').style.display = 'block';
+        document.getElementById('lan_CH').style.display = 'none';
+
+        document.getElementById('lan_EN2').style.display = 'block';
+        document.getElementById('lan_CH2').style.display = 'none';
+
+        for (let i = 0; i < content_CH.length; i++) {
+          content_CH[i].style.display = 'none';
+          content_EN[i].style.display = 'block';
+        }
+        $('.welcome').addClass('welcome_EN');
+        $('.welcome2').addClass('welcome2_EN');
+
+        if (sessionStorage.getItem('MTR_OPENGIGI')) {
+          // $('.welcome').addClass('active');
+          $('.welcome2').addClass('active');
+
+          setTimeout(function () {
+            sessionStorage.removeItem('MTR_OPENGIGI')
+          }, 2000)
+        }
+        // $('#showExhibition').addClass('active');
+
+      } else { //中文
+        document.getElementById('lan_EN').style.display = 'none';
+        document.getElementById('lan_CH').style.display = 'block';
+
+        document.getElementById('lan_EN2').style.display = 'none';
+        document.getElementById('lan_CH2').style.display = 'block';
+
+        for (let i = 0; i < content_CH.length; i++) {
+          content_CH[i].style.display = 'block';
+          content_EN[i].style.display = 'none';
+        }
+        $('.welcome').addClass('welcome_CH');
+        $('.welcome2').addClass('welcome2_CH');
+
+        if (sessionStorage.getItem('MTR_OPENGIGI')) {
+          // $('.welcome').addClass('active');
+          $('.welcome2').addClass('active');
+
+          setTimeout(function () {
+            sessionStorage.removeItem('MTR_OPENGIGI')
+          }, 2000)
+        }
+      }
+
+      addPanelFn(lan);
+
+      let ON = document.getElementById('music-on');
+      let ON_mobile = document.getElementById('music-on-mobile');
+
+      ON.style.display = 'none';
+      ON_mobile.style.display = 'none';
+    }
+
+    function playOrPaused() {
+      let audioID = document.getElementById('instrumental');
+      let ON = document.getElementById('music-on');
+      let OFF = document.getElementById('music-off');
+      let ON_mobile = document.getElementById('music-on-mobile');
+      let OFF_mobile = document.getElementById('music-off-mobile');
+      if (audioID.paused) {
+        audioID.play();
+        OFF.style.display = 'none';
+        OFF_mobile.style.display = 'none';
+        ON.style.display = 'block';
+        ON_mobile.style.display = 'block';
+      } else {
+        audioID.pause();
+        OFF.style.display = 'block';
+        OFF_mobile.style.display = 'block';
+        ON.style.display = 'none';
+        ON_mobile.style.display = 'none';
+      }
+    }
+
+    $('.changeLanguage').on('click', function () {
+      if (lan == 'lan_CH_0') {
+        sessionStorage.setItem('MTRLANGUAGE', 'lan_EN_1')
+      } else {
+        sessionStorage.setItem('MTRLANGUAGE', 'lan_CH_0')
+      }
+      window.location.reload();
+    });
+
+    $('#GuidedTour').on('click', function () {
+      $('.language').removeClass('active');
+      $('.welcome').addClass('active');
+    });
+
+    // $('#exhibition').on('click',function () {
+    //   $('#showExhibition').addClass('active')
+    // });
+
+    //点击video的时候 把背景音乐mute
+    $('.video-content').on('click', function () {
+      let audioID = document.getElementById('instrumental');
+      let ON = document.getElementById('music-on');
+      let OFF = document.getElementById('music-off');
+      let ON_mobile = document.getElementById('music-on-mobile');
+      let OFF_mobile = document.getElementById('music-off-mobile');
+      if (!audioID.paused) {
+        audioID.pause();
+        OFF.style.display = 'block';
+        OFF_mobile.style.display = 'block';
+        ON.style.display = 'none';
+        ON_mobile.style.display = 'none';
+      }
+    });
+
+    $('.language_CH').on('click', function () {
+      sessionStorage.setItem('MTRLANGUAGE', 'lan_CH_0');
+
+      sessionStorage.setItem('MTR_OPENGIGI', true);  // added
+
+      $('.language').removeClass('active');
+      // $('.welcome').addClass('active');
+      $('.welcome2').addClass('active');
+    });
+
+    $('.language_EN').on('click', function () {
+      sessionStorage.setItem('MTRLANGUAGE', 'lan_EN_1');
+      sessionStorage.setItem('MTR_OPENGIGI', true);
+      window.location.reload();
+
+    });
+
+    const page1 = document.getElementsByClassName('welcomePage1')[indexLan];
+    const page2 = document.getElementsByClassName('welcomePage2')[indexLan];
+    // const page3 = document.getElementsByClassName('welcomePage3')[indexLan];
+
+    // page3.style.display = 'none';
+    page2.style.display = 'none';
+    page1.style.display = 'block';
+
+
+    function addPanelFn(lan) {
+      let panelHtml = ``;
+      if (lan != 'lan_CH_0') { //英文
+        $('.panelList')[0].remove();
+        panelHtml = `
+            <div>
+              <a data-fancybox="panel" data-caption="Tung Chung – Advancing alongside the railway" href="img/panels/Eng/P1.jpg" tabindex="55" class="operationRight">
+                <span style="margin-right: 10px;">Start</span>
+                <img src="img/icons/operationRight.png" alt="">
+              </a>
+              <div style="display: none;" >
+                <a data-fancybox="panel" href="img/panels/Eng/P2.jpg" tabindex="-1" data-caption="Train to a New Tung Chung is Arriving" ></a>
+                <a data-fancybox="panel" href="img/panels/Eng/P3.jpg" tabindex="-1" data-caption="Tung Chung Line Extension" ></a>
+                <a data-fancybox="panel" href="img/panels/Eng/P4.jpg" tabindex="-1" data-caption="Railway – Promoting all Aspects of Community Life" ></a>
+                <a data-fancybox="panel" href="img/panels/Eng/P5.jpg" tabindex="-1" data-caption="Learn about Green Tung Chung" ></a>
+                <a data-fancybox="panel" href="img/panels/Eng/P6.jpg" tabindex="-1" data-caption="Timetable" ></a>
+              </div>
+            </div>
+        `;
+        $('.welcomeStart')[0].append(panelHtml);
+      } else {
+        $('.panelList')[1].remove();
+        panelHtml = `
+            <div>
+              <a data-fancybox="panel" data-caption="東涌。與鐵路前行" href="img/panels/Chi/P1.jpg" tabindex="55" class="operationRight">
+                <span style="margin-right: 10px;">開始</span>
+                <img src="img/icons/operationRight.png" alt="">
+              </a>
+              <div style="display: none;">
+                <a data-fancybox="panel" href="img/panels/Chi/P2.jpg" tabindex="-1" data-caption="下一站。煥然東涌" ></a>
+                <a data-fancybox="panel" href="img/panels/Chi/P3.jpg" tabindex="-1" data-caption="東涌綫延綫" ></a>
+                <a data-fancybox="panel" href="img/panels/Chi/P4.jpg" tabindex="-1" data-caption="鐵路。帶動社區各方面" ></a>
+                <a data-fancybox="panel" href="img/panels/Chi/P5.jpg" tabindex="-1" data-caption="綠「識」東涌" ></a>
+                <a data-fancybox="panel" href="img/panels/Chi/P6.jpg" tabindex="-1" data-caption="時間表" ></a>
+              </div>
+            </div>
+        `;
+        $('.welcomeStart')[1].append(panelHtml);
+
+      }
+    }
+
+
+    $('[data-fancybox]').fancybox({
+      fullScreen: false,
+      smallBtn: true,
+      iframe: {
+        preload: false,
+        keys: {
+          close: [27] // escape key
+        },
+      },
+      afterShow: function () {
+        $(".fancybox-iframe")
+          .contents()
+          .keydown(function (e) {
+            const keyDownEvent = e || window.e;
+            const keycode = (keyDownEvent.which) ? keyDownEvent.which : keyDownEvent.keyCode;
+            switch (keycode) {
+              case ESC:
+                if ($.fancybox.getInstance()) {
+                  $.fancybox.close();
+                }
+                break;
+
+              default:
+                break;
+            }
+            e.preventDefault();
+          });
+
+        // controls.disableMethod('leftArrowKey');
+        // controls.disableMethod('rightArrowKey');
+        // controls.disableMethod('minusKey');
+        // controls.disableMethod('plusKey');
+        // controls.disableMethod('aKey');
+        // controls.disableMethod('dKey');
+      },
+      afterClose: function () {
+        // controls.enableMethod('leftArrowKey');
+        // controls.enableMethod('rightArrowKey');
+        // controls.enableMethod('minusKey');
+        // controls.enableMethod('plusKey');
+        // controls.enableMethod('aKey');
+        // controls.enableMethod('dKey');
+      }
+    })
+
+  </script>
+</body>
+
+</html>

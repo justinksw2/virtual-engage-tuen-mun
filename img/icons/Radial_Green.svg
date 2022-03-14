@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" x="0px" y="0px" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;}
+	.st2{fill:#36A9E1;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:#3FB498;}
+	.st5{fill:#E4003A;}
+</style>
+  <g id="_x37_">
+    <g>
+      <circle style="fill: rgb(63, 180, 152);" cx="20" cy="20" r="20"/>
+      <circle style="stroke: rgb(255, 255, 255); stroke-width: 2px; fill: rgb(63, 180, 152);" cx="20" cy="20" r="8.859"/>
+      <circle style="stroke: rgb(255, 255, 255); fill: rgb(255, 255, 255);" cx="20" cy="20" r="3.293"/>
+      <circle style="stroke: rgb(255, 255, 255); fill: rgb(63, 180, 152);" cx="29.748" cy="20" r="4.356"/>
+      <circle style="stroke: rgb(255, 255, 255); fill: rgb(63, 180, 152);" cx="10.152" cy="20" r="4.356"/>
+      <circle style="stroke: rgb(255, 255, 255); fill: rgb(63, 180, 152);" cx="20" cy="29.648" r="4.356"/>
+      <circle style="stroke: rgb(255, 255, 255); fill: rgb(63, 180, 152);" cx="20" cy="10.152" r="4.356"/>
+    </g>
+  </g>
+</svg>

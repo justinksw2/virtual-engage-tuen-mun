@@ -1,0 +1,25 @@
+.language {
+    position: fixed;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -25%) scale(0);
+    transition: 200ms ease-in-out;
+    border-radius: 20px;
+    z-index: 50;
+    background-color: white;
+    width: 300px;
+    height: 120px;
+    max-width: 80%;
+    max-height: 80%;
+    font-family: 'lihei-Pro',Arial, Helvetica, sans-serif !important;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(105, 118, 128);
+}
+.language.active {
+    transform: translate(-50%, -25%) scale(1);
+}
+.language_CH,.language_EN{
+    line-height: 120px;
+    cursor: pointer;
+}

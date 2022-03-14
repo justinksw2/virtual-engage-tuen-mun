@@ -1,0 +1,141 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 50;
+    background-color: white;
+    width: 1200px;
+    height: 600px;
+    max-width: 80%;
+    max-height: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    
+  }
+  
+  .modal.active {
+    transform: translate(-50%, -25%) scale(1);
+  }
+  
+  .modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .modal-header .title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+  .modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .modal-body {
+    padding: 40px 45px;
+    color: black;
+    height: calc(100% - 50px);
+    overflow-y: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .modal-body .block {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    line-height: 150%;
+    font-size: 17px;
+  }
+
+  .modal-body .branding {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+  
+  }
+
+  .modal-body .heading {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .modal-body .para {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    
+    
+  }
+
+  .modal-body .nav-bar {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+  }
+
+  .modal-body .nav-item {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+  }
+
+  .modal-body .icon-box {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    
+  }
+
+  .modal-body .icon-img {
+    margin-right: 10px;
+  }
+
+  .modal-body .horizontal-rule {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  
+  #overlay-welcome {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 40;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #overlay-welcome.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+  
+  

@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="model.css">
+
+    <script src="vendor/promisePolyfill.js"></script>
+    <script src="vendor/searchParamsPolyfill.js"></script>
+    <script src="vendor/webcomponents-loader.js"></script>
+    <script src="vendor/intersection-observer.js"></script>
+    <script src="vendor/ResizeObserver.js"></script>
+    <script src="vendor/focus-visible.js" defer></script>
+    <script type="module" src="vendor/model-viewer.js"></script>
+    <script nomodule src="vendor/model-viewer-legacy8_1.js"></script>
+    
+    <title>Model</title>
+</head>
+<body>
+    <div class="ModelContainer">
+        <div class="Model"></div>
+    </div>
+
+    <script>
+        const model = document.querySelector(".Model");
+        const urlParams = new URLSearchParams(window.location.search);
+        const modelParam = urlParams.get('model');
+        console.log(modelParam);
+
+        const modelViewer = document.createElement("model-viewer");
+        modelViewer.setAttribute("class", "ModelViewer");
+        modelViewer.setAttribute("src", "model/" + modelParam);
+        modelViewer.setAttribute("ar", true);
+        modelViewer.setAttribute("ar-modes", "webxr scene-viewer quick-look fallback");
+        //modelViewer.setAttribute("ios-src", "modeldemo.usdz");
+        modelViewer.setAttribute("shadow-intensity", "3");
+        modelViewer.setAttribute("auto-rotate", true);
+        modelViewer.setAttribute("auto-rotate-delay", "0");
+        modelViewer.setAttribute("camera-orbit", "10deg 75deg 7000m");
+        modelViewer.setAttribute("camera-controls", true);
+
+        model.appendChild(modelViewer);
+        
+    </script>
+</body>
+</html>

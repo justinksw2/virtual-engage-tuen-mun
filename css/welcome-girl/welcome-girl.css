@@ -1,0 +1,474 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+.welcome {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -25%) scale(0);
+    transition: 200ms ease-in-out;
+    border-radius: 10px;
+    z-index: 50;
+    background-color: white;
+    width: 900px;
+    height: 400px;
+    max-width: 80%;
+    max-height: 80%;
+    font-size: 20px;
+
+}
+
+.welcome.welcome_EN{
+    font-family:  Arial;
+}
+
+.welcome.welcome_CH{
+    font-family:  'lihei-Pro',Arial, Helvetica, sans-serif !important;
+}
+
+.welcome.active {
+    transform: translate(-50%, -25%) scale(1);
+}
+
+.welcome-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+.welcome-header .title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+
+}
+
+.welcome-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #989898;
+    position: absolute;
+    right: 10px;
+    z-index: 999;
+}
+
+.welcome-body {
+    color: rgb(105, 118, 128);
+    /*padding: 30px 45px;*/
+    padding: 3% 5%;
+    height: calc(100% - 50px);
+    overflow: visible;
+    position: relative;
+}
+
+.welcome-content{
+    /*width: 470px;*/
+    /*padding: 0 20px;*/
+    padding: 0 2.5%;
+    width: 60%;
+    overflow: auto;
+    height: calc(100% - 68px);
+}
+
+.operation{
+    color: rgb(105, 118, 128);
+    position: absolute;
+    /*bottom: 10%;*/
+    /*padding-top: 3%; */
+    bottom: 8%;
+    padding-top: 2%;
+    /*width: 430px;*/
+    width: 49%;
+    margin: 0 20px;
+    padding-bottom: 1%;
+    border-top: 1px solid rgb(208, 209, 213);
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.operationLeft,.operationRight{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.operationRight p{
+    display: inline-block;
+    width: 100%;
+}
+
+.operation img{
+    height: 26px;
+}
+
+.hello{
+    font-size: 50px;
+    line-height: 40px;
+    margin-bottom: 5.5%;
+}
+
+.lan_EN .hello{
+    font-size: 36px;
+    line-height: 30px;
+    margin-bottom: 2%;
+}
+
+.welcome-text{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.lan_EN .welcome-text{
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.welcome-gif{
+    position: absolute;
+    /*width: 420px;*/
+    width:48%;
+    bottom: -90px;
+    right: -70px;
+}
+
+.welcome-btn{
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+    cursor: pointer;
+}
+
+.welcomeStart{
+    margin-left: 84.5%
+}
+
+.welcome-body .block {
+    margin-bottom: 10px;
+    padding: 0px;
+    line-height: 150%;
+    font-size: 17px;
+}
+
+.welcome-body .branding {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.welcome-body .heading {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.welcome-body .para {
+    margin-bottom: 10px;
+    line-height: 150%;
+}
+
+.welcome-body .nav-bar {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+}
+
+.welcome-body .nav-item {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+.welcome-body .icon-box {
+    display: flex;
+    align-items: center;
+    line-height: 150%;
+}
+
+.welcome-body .icon-img {
+    margin-right: 10px;
+}
+
+.welcome-body .horizontal-rule {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#overlay-welcome {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 40;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay-welcome.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+@media screen and (max-width:1024px) {
+    .operationLeft{
+        width: 48%;
+    }
+    .operationRight{
+        width: 120%;
+    }
+    .welcome-content{
+        width: 65%;
+    }
+    .operation{
+        width: 52.5%;
+    }
+}
+
+@media screen and (max-width:820px) {
+   .welcome-body{
+       padding: 13px 18px;
+       height: calc(100% - 30px);
+   }
+    .welcome-content{
+       width: 68%;
+    }
+    .operation{
+        width: 59%;
+        margin: 0 10px;
+    }
+    .welcome-gif{
+        position: absolute;
+        bottom: -44px;
+        right: -64px;
+    }
+    .welcomeStart{
+        margin-left: 77%;
+    }
+    .lan_EN .welcome-text{
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .welcome{
+        top: 40%;
+        height: 530px;
+    }
+    .welcome-body{
+        padding: 13px 18px;
+        height: calc(100% - 30px);
+    }
+    .welcome-content{
+        width: 100%;
+        padding: 114px 10px 0;
+    }
+    .operation{
+        width: 83%;
+        margin: 0 3%;
+        font-size: 18px;
+        padding-top: 3%;
+    }
+    .operation img{
+        height: 20px;
+    }
+    .welcome-gif{
+        position: absolute;
+        width: 260px;
+        top: -118px;
+        left: -38px;
+    }
+    .welcomeStart{
+        margin-left: 74%
+    }
+    .lan_EN .welcome-text{
+        line-height: 25px;
+    }
+    .welcome-text{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .welcome{
+        top: 40%;
+        height: 530px;
+    }
+    .welcome-body{
+        padding: 13px 18px;
+        height: calc(100% - 30px);
+    }
+    .welcome-content{
+        width: 100%;
+        padding: 114px 10px 0;
+    }
+    .operation{
+        width: 83%;
+        margin: 0 3%;
+        font-size: 18px;
+        padding-top: 3%;
+    }
+    .operation img{
+        height: 20px;
+    }
+    .welcome-gif{
+        position: absolute;
+        width: 260px;
+        top: -118px;
+        left: -38px;
+    }
+    .welcomeStart{
+        margin-left: 74%
+    }
+    .lan_EN .welcome-text{
+        line-height: 25px;
+    }
+    .welcome-text{
+        font-size: 18px;
+    }
+}
+@media screen and (max-height: 700px) {
+    .welcome{
+        top: 30%;
+    }
+    .hello{
+        font-size: 50px;
+        line-height: 35px;
+    }
+    .welcome-content{
+        width: 73%;
+    }
+    .lan_EN .welcome-content{
+        width: 75%;
+    }
+    .welcome-body{
+        padding: 0 5%;
+    }
+    .lan_EN .welcome-text{
+        line-height: 25px;
+    }
+    .operation img{
+        height: 22px;
+    }
+    .welcome-text{
+        font-size: 19px;
+    }
+    .welcomeStart{
+        margin-left: 74%;
+    }
+}
+
+@media screen and (max-height: 428px) {
+    .hello{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .lan_EN .welcome-text {
+        line-height: 22px;
+    }
+    .welcome-text{
+        font-size: 18px;
+    }
+    .operation{
+        font-size: 16px;
+        width: 62%;
+    }
+    .operation img {
+        height: 18px;
+    }
+    .welcome-gif{
+        width: 40%;
+        bottom: -32px;
+        right: -62px;
+    }
+    .welcomeStart {
+        margin-left: 78%;
+    }
+}
+@media screen and (max-width: 390px) {
+    .welcome{
+        top: 40%;
+        height: 470px;
+    }
+
+    .welcome-body{
+        padding: 13px 18px;
+        height: calc(100% - 30px);
+    }
+    .welcome-content{
+        width: 100%;
+        padding: 66px 10px 0;
+    }
+    .lan_EN .welcome-content{
+        width: 100%;
+        /*padding: 66px 10px 0;*/
+    }
+    .operation{
+        font-size: 16px;
+    }
+    .operation img{
+        height: 20px;
+    }
+    .welcome-gif{
+        position: absolute;
+        width: 210px;
+        top: -104px;
+        left: -35px;
+    }
+    .welcomeLeft span{
+        width: 80%;
+        display: inline-block;
+    }
+    .welcomeRight span{
+        text-align: right;
+        width: 80%;
+        display: inline-block;
+    }
+    .hello{
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .welcome-text{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .welcome-gif{
+        width: 160px;
+        top: -80px;
+        left: -32px;
+    }
+    .welcome-content{
+        padding:38px 6px 0;
+    }
+    .hello{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .welcome-text{
+        font-size: 15px;
+    }
+    .lan_EN .welcome-text{
+        line-height: 24px;
+    }
+    .operation{
+        font-size: 12px;
+    }
+    .operation img{
+        height: 14px;
+    }
+}
+
+.lan_EN .operationLeft{
+    font-size: 17px;
+}
