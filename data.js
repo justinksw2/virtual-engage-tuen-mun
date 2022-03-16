@@ -58,77 +58,75 @@ var APP_DATA = {
         {
           "yaw": -0.9533446783720194,
           "pitch": -0.0692345793969289,  // larger, down
-          "title": "東涌。與鐵路前行",
+          "title": "鐵路。讓城市前行",
           "type": "image",
           "image": "img/panels/Chi/P1.jpg",
           "order": "3",
           "gallery": [
             {
               "image": "img/panels/Chi/P1.jpg",
-              "caption": "東涌。與鐵路前行",
-              "alt": "東涌綫延綫可支援東涌擴展成為更具規模的社區。"
+              "caption": "鐵路。讓城市前行",
+              "alt": ""
             }
           ]
         },
         {
           "yaw": -0.06087073337594262,
           "pitch": -0.0692345793969289,
-          // "title": "下一站。煥然東涌",
-          "title": "東涌綫延綫",
+          "title": "屯門南延綫概覽",
           "type": "image",
           "image": "img/panels/Chi/P2.jpg",
           "order": "4",
           "gallery": [
             {
               "image": "img/panels/Chi/P2.jpg",
-              "caption": "下一站。煥然東涌",
-              "alt": "東涌東站設於欣澳站及東涌站之間，鄰近新填海區。東涌西站由東涌站延伸至鄰近逸東邨。"
+              "caption": "屯門南延綫概覽",
+              "alt": ""
             },
           ]
         },
         {
           "yaw": 0.4838613859037473,
           "pitch": -0.0692345793969289,
-          // "title": "東涌綫延綫",
-          "title": "主要資料",
+          "title": "設計特色",
           "type": "image",
           "image": "img/panels/Chi/P3.jpg",
           "order": "5",
           "gallery": [
             {
               "image": "img/panels/Chi/P3.jpg",
-              "caption": "東涌綫延綫",
-              "alt": "新建鐵路路軌長度為 2.5公里，共新增2個車站。"
+              "caption": "設計特色",
+              "alt": ""
             },
           ]
         },
         {
           "yaw": 0.8856312512831259,
           "pitch": -0.0692345793969289,
-          "title": "鐵路。帶動社區各方面",
+          "title": "鐵路延伸",
           "type": "image",
           "image": "img/panels/Chi/P4.jpg",
           "order": "6",
           "gallery": [
             {
               "image": "img/panels/Chi/P4.jpg",
-              "caption": "鐵路。帶動社區各方面",
-              "alt": "配合北大嶼山可持續發展，提供更完善的鐵路服務，發展及環保並重，連繫社區。"
+              "caption": "鐵路延伸",
+              "alt": ""
             },
           ]
         },
         {
           "yaw": 1.3547675363481222,
           "pitch": -0.0692345793969289,
-          "title": "綠「識」東涌",
+          "title": "設施換新",
           "type": "image",
           "image": "img/panels/Chi/P5.jpg",
           "order": "7",
           "gallery": [
             {
               "image": "img/panels/Chi/P5.jpg",
-              "caption": "綠「識」東涌",
-              "alt": "進行環境影響評估和考古影響評估並實施緩解措施，保護東涌的自然面貌及文化遺產。"
+              "caption": "設施換新",
+              "alt": ""
             },
           ]
         },
@@ -143,7 +141,7 @@ var APP_DATA = {
             {
               "image": "img/panels/Chi/P6.jpg",
               "caption": "時間表",
-              "alt": "現正進行初步設計階段的諮詢。東涌綫延綫預計於2029年竣工。"
+              "alt": ""
             },
           ]
         },
@@ -164,7 +162,7 @@ var APP_DATA = {
         {
           "yaw": -1.0304647290410698,
           "pitch": 0.09003330480693151,
-          "title": "東涌綫延綫立體模型",
+          "title": "屯門南站立體模型",
           "type": "model",
           "external": true,
           // "filename": "https://tungchunglineextension.virtual-engage.com/ThreeJSModel/index.html",
@@ -311,15 +309,15 @@ var APP_DATA_EN = {
         {
           "yaw": -0.9533446783720194,
           "pitch": -0.0692345793969289,
-          "title": "Tung Chung – Advancing alongside the railway",
+          "title": "The Railway Keeps the City Moving",
           "type": "image",
           "image": "img/panels/Eng/P1.jpg",
           "order": "3",
           "gallery": [
             {
               "image": "img/panels/Eng/P1.jpg",
-              "caption": "Tung Chung – Transforming alongside railway",
-              "alt": "Tung Chung Line Extension will support the communities of Tung Chung."
+              "caption": "The Railway Keeps the City Moving",
+              "alt": ""
             }
           ]
         },
@@ -327,16 +325,15 @@ var APP_DATA_EN = {
           "yaw": -0.06087073337594262,
           // "pitch": -0.13287763958809904,
           "pitch": -0.0692345793969289,
-          // "title": "Train to a New Tung Chung is Arriving",
-          "title": "Tung Chung Line Extension",
+          "title": "Tuen Mun South Extension at a Glance",
           "type": "image",
           "image": "img/panels/Eng/P2.jpg",
           "order": "4",
           "gallery": [
             {
               "image": "img/panels/Eng/P2.jpg",
-              "caption": "Train to a New Tung Chung is Arriving",
-              "alt": "Tung Chung East Station will located be located between Sunny Bay Station and Tung Chung Station, and near the new reclamation area. Tung Chung West Station is an extension from Tung Chung Station to area adjacent to Yat Tung Estate."
+              "caption": "Tuen Mun South Extension at a Glance",
+              "alt": ""
             },
           ]
         },
@@ -344,16 +341,15 @@ var APP_DATA_EN = {
           "yaw": 0.4838613859037473,
           // "pitch": -0.11939070469195966,
           "pitch": -0.0692345793969289,
-          // "title": "Tung Chung Line Extension",
-          "title": "Key Information",
+          "title": "Design Features",
           "type": "image",
           "image": "img/panels/Eng/P3.jpg",
           "order": "5",
           "gallery": [
             {
               "image": "img/panels/Eng/P3.jpg",
-              "caption": "Tung Chung Line Extension",
-              "alt": "There will be 2.5km long new rail track and 2 new stations."
+              "caption": "Design Features",
+              "alt": ""
             },
           ]
         },
@@ -361,15 +357,15 @@ var APP_DATA_EN = {
           "yaw": 0.8856312512831259,
           // "pitch": -0.11099622137841557,
           "pitch": -0.0692345793969289,
-          "title": "Railway – Promoting all Aspects of Community Life",
+          "title": "Railway Extension",
           "type": "image",
           "image": "img/panels/Eng/P4.jpg",
           "order": "6",
           "gallery": [
             {
               "image": "img/panels/Eng/P4.jpg",
-              "caption": "Railway – Promoting all Aspects of Community Life",
-              "alt": "In tandem with the Sustainable Development of North Lantau. Provide better rail service, protect the environment for sustainable development and bring communities together."
+              "caption": "Railway Extension",
+              "alt": ""
             },
           ]
         },
@@ -377,15 +373,15 @@ var APP_DATA_EN = {
           "yaw": 1.3547675363481222,
           // "pitch": -0.11717409477731564,
           "pitch": -0.0692345793969289,
-          "title": "Learn about Green Tung Chung",
+          "title": "Re-provisioning of Facilities",
           "type": "image",
           "image": "img/panels/Eng/P5.jpg",
           "order": "7",
           "gallery": [
             {
               "image": "img/panels/Eng/P5.jpg",
-              "caption": "Learn about Green Tung Chung",
-              "alt": "To protect the natural landscape and cultural heritage, we will conduct Environmental Impact Assessment and Archaeological Impact Assessment, and implement mitigation measures."
+              "caption": "Re-provisioning of Facilities",
+              "alt": ""
             },
           ]
         },
