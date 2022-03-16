@@ -175,7 +175,7 @@ var APP_DATA = {
           "title": "查詢 / 提交意見",
           "type": "feedback",
           "external": true,
-          "link": "https://forms.office.com/r/79e5xbR3mx",
+          "link": "https://mtrtuenmunsouth.hk/activities/#contactinfo",
           "order": "10"
         },
         {
@@ -186,27 +186,30 @@ var APP_DATA = {
           "external": true,
           "hotspots": [
             //Justin 02/10/2022
+            // {
+            //   "type": "homeIcon",
+            //   "link": "doc/InfoCentre.pdf",
+            //   "external": true,
+            //   "order": "13",
+            //   "title": "東涌綫延綫資訊中心"
+            // }, 
+            // {
+            //   "type": "ecoIcon",
+            //   "link": "https://arup-tue-eia-3d-visualization-prod-web.azurewebsites.net/#/",
+            //   "external": true,
+            //   "order": "13",
+            //   "title": "互動環境影響評估" + "<br>" + "(只限英文)"
+            // }, 
             {
-              "type": "homeIcon",
-              "link": "doc/InfoCentre.pdf",
-              "external": true,
-              "order": "13",
-              "title": "東涌綫延綫資訊中心"
-            }, {
-              "type": "ecoIcon",
-              "link": "https://arup-tue-eia-3d-visualization-prod-web.azurewebsites.net/#/",
-              "external": true,
-              "order": "13",
-              "title": "互動環境影響評估" + "<br>" + "(只限英文)"
-            }, {
               "type": "docIcon",
-              "link": "https://www.hyd.gov.hk/tc/road_and_railway/railway_projects/tcle/index.html",
+              "link": "https://mtrtuenmunsouth.hk/publications/info_kit/",
               "external": true,
               "order": "13",
-              "title": "刊憲文件"
-            }, {
+              "title": "項目小冊子"
+            },
+            {
               "type": "linkWeb",
-              "link": "http://mtrtungchunglineextension.hk/",
+              "link": "https://mtrtuenmunsouth.hk/",
               "external": true,
               "order": "13",
               "title": "項目網站"
@@ -417,7 +420,7 @@ var APP_DATA_EN = {
           "title": "Enquiry / Submit Feedback",
           "type": "feedback",
           "external": true,
-          "link": "https://forms.office.com/r/79e5xbR3mx",
+          "link": "https://mtrtuenmunsouth.hk/activities/#contactinfo",
           "order": "10"
         },
         {
@@ -428,27 +431,30 @@ var APP_DATA_EN = {
           "external": true,
           "hotspots": [
             //Justin 02/10/2022
+            // {
+            //   "type": "homeIcon",
+            //   "link": "doc/InfoCentre.pdf",
+            //   "external": true,
+            //   "order": "13",
+            //   "title": "Tung Chung Line Extension Information Centre"
+            // },
+            // {
+            //   "type": "ecoIcon",
+            //   "link": "https://arup-tue-eia-3d-visualization-prod-web.azurewebsites.net/#/",
+            //   "external": true,
+            //   "order": "13",
+            //   "title": "Interactive EIA",
+            // },
             {
-              "type": "homeIcon",
-              "link": "doc/InfoCentre.pdf",
-              "external": true,
-              "order": "13",
-              "title": "Tung Chung Line Extension Information Centre"
-            }, {
-              "type": "ecoIcon",
-              "link": "https://arup-tue-eia-3d-visualization-prod-web.azurewebsites.net/#/",
-              "external": true,
-              "order": "13",
-              "title": "Interactive EIA",
-            }, {
               "type": "docIcon",
-              "link": "https://www.hyd.gov.hk/en/road_and_railway/railway_projects/tcle/index.html",
+              "link": "https://mtrtuenmunsouth.hk/publications/info_kit/",
               "external": true,
               "order": "13",
-              "title": "Gazettal Documents"
-            }, {
+              "title": "Project Leaflet"
+            },
+            {
               "type": "linkWeb",
-              "link": "http://mtrtungchunglineextension.hk/",
+              "link": "https://mtrtuenmunsouth.hk/",
               "external": true,
               "order": "13",
               "title": "Project Website"
