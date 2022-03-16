@@ -38,21 +38,21 @@ var APP_DATA = {
         {
           "yaw": -2.2734579044971213,
           "pitch": -0.16549354180301677,
-          "title": "港鐵東涌綫延綫概覽",
+          "title": "屯門活力社區",
           "type": "video",
           "image": "img/banners/Explainer-video-cover.PNG",
           "link": "https://youtu.be/TYOSAD06ehk",
-          "alt": "港鐵公司正在設計東涌綫延綫，將新增東涌東和東涌西站。",
+          "alt": "",
           "order": "1"
         },
         {
           "yaw": -1.33161493258044,
           "pitch": -0.0692345793969289,
-          "title": "「社區鐵路」 - 港鐵東涌綫延綫",
+          "title": "站在屯門",
           "type": "video",
-          "image": "img/banners/marketing-video-cover.PNG",
-          "link": "https://www.youtube.com/watch?v=Q6zPgElKoTE",
-          "alt": "港鐵東涌綫延綫是一條社區鐵路。",
+          "image": "img/banners/marketing-video-cover.JPG",
+          "link": "https://www.youtube.com/watch?v=ATBPziOJimU",
+          "alt": "",
           "order": "2"
         },
         {
@@ -291,7 +291,7 @@ var APP_DATA_EN = {
         {
           "yaw": -2.2734579044971213,
           "pitch": -0.16549354180301677,
-          "title": "MTR Tung Chung Line Extension",
+          "title": "Tuen Mun South Station",
           "type": "video",
           "image": "img/banners/Explainer-video-cover.PNG",
           "link": "https://youtu.be/MV0dV59RuWk",
@@ -300,10 +300,10 @@ var APP_DATA_EN = {
         {
           "yaw": -1.33161493258044,
           "pitch": -0.0692345793969289,
-          "title": "Community Railway - MTR Tung Chung Line Extension",
+          "title": "Tuen Mun South Station",
           "type": "video",
-          "image": "img/banners/marketing-video-cover.PNG",
-          "link": "https://www.youtube.com/watch?v=_ZoAsajzxzA",
+          "image": "img/banners/marketing-video-cover.JPG",
+          "link": "https://www.youtube.com/watch?v=ATBPziOJimU",
           "order": "2"
         },
         {
