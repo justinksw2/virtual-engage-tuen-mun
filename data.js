@@ -57,7 +57,7 @@ var APP_DATA = {
         },
         {
           "yaw": -0.9533446783720194,
-          "pitch": -0.10052752501175786,
+          "pitch": -0.0692345793969289,  // larger, down
           "title": "東涌。與鐵路前行",
           "type": "image",
           "image": "img/panels/Chi/P1.jpg",
@@ -72,7 +72,7 @@ var APP_DATA = {
         },
         {
           "yaw": -0.06087073337594262,
-          "pitch": -0.13287763958809904,
+          "pitch": -0.0692345793969289,
           // "title": "下一站。煥然東涌",
           "title": "東涌綫延綫",
           "type": "image",
@@ -88,7 +88,7 @@ var APP_DATA = {
         },
         {
           "yaw": 0.4838613859037473,
-          "pitch": -0.11939070469195966,
+          "pitch": -0.0692345793969289,
           // "title": "東涌綫延綫",
           "title": "主要資料",
           "type": "image",
@@ -104,7 +104,7 @@ var APP_DATA = {
         },
         {
           "yaw": 0.8856312512831259,
-          "pitch": -0.11099622137841557,
+          "pitch": -0.0692345793969289,
           "title": "鐵路。帶動社區各方面",
           "type": "image",
           "image": "img/panels/Chi/P4.jpg",
@@ -119,7 +119,7 @@ var APP_DATA = {
         },
         {
           "yaw": 1.3547675363481222,
-          "pitch": -0.11717409477731564,
+          "pitch": -0.0692345793969289,
           "title": "綠「識」東涌",
           "type": "image",
           "image": "img/panels/Chi/P5.jpg",
@@ -134,7 +134,7 @@ var APP_DATA = {
         },
         {
           "yaw": 1.8463200026451299,
-          "pitch": -0.11513563362007172,
+          "pitch": -0.0692345793969289,
           "title": "時間表",
           "type": "image",
           "image": "img/panels/Chi/P6.jpg",
@@ -226,25 +226,24 @@ var APP_DATA = {
           "filename": "ve-room-large/Water.pdf",
           "order": "11" //不要改
         },
-        // Justin
-        {
-          "yaw": -0.40087073337594262,  // "yaw": -0.06087073337594262,
-          "pitch": 0.09287763958809904,  // "pitch": 0.13287763958809904,
-          "title": "東涌西站立體模型",
-          "type": "kiosksIcon",
-          "external": true,
-          "filename": "https://arup-group.github.io/Tung-Chung-3D-Map/ThreeJSModel/index.html?model=TCW",
-          "order": "9"
-        },
-        {
-          "yaw": 0.33087073337594262,
-          "pitch": 0.09287763958809904,
-          "title": "東涌東站立體模型",
-          "type": "kiosksIcon",
-          "external": true,
-          "filename": "https://arup-group.github.io/Tung-Chung-3D-Map/ThreeJSModel/index.html?model=TCE",
-          "order": "9"
-        },
+        // {
+        //   "yaw": -0.40087073337594262,  // "yaw": -0.06087073337594262,
+        //   "pitch": 0.09287763958809904,  // "pitch": 0.13287763958809904,
+        //   "title": "東涌西站立體模型",
+        //   "type": "kiosksIcon",
+        //   "external": true,
+        //   "filename": "https://arup-group.github.io/Tung-Chung-3D-Map/ThreeJSModel/index.html?model=TCW",
+        //   "order": "9"
+        // },
+        // {
+        //   "yaw": 0.33087073337594262,
+        //   "pitch": 0.09287763958809904,
+        //   "title": "東涌東站立體模型",
+        //   "type": "kiosksIcon",
+        //   "external": true,
+        //   "filename": "https://arup-group.github.io/Tung-Chung-3D-Map/ThreeJSModel/index.html?model=TCE",
+        //   "order": "9"
+        // },
       ]
     },
   ],
@@ -311,7 +310,7 @@ var APP_DATA_EN = {
         },
         {
           "yaw": -0.9533446783720194,
-          "pitch": -0.10052752501175786,
+          "pitch": -0.0692345793969289,
           "title": "Tung Chung – Advancing alongside the railway",
           "type": "image",
           "image": "img/panels/Eng/P1.jpg",
@@ -326,7 +325,8 @@ var APP_DATA_EN = {
         },
         {
           "yaw": -0.06087073337594262,
-          "pitch": -0.13287763958809904,
+          // "pitch": -0.13287763958809904,
+          "pitch": -0.0692345793969289,
           // "title": "Train to a New Tung Chung is Arriving",
           "title": "Tung Chung Line Extension",
           "type": "image",
@@ -342,7 +342,8 @@ var APP_DATA_EN = {
         },
         {
           "yaw": 0.4838613859037473,
-          "pitch": -0.11939070469195966,
+          // "pitch": -0.11939070469195966,
+          "pitch": -0.0692345793969289,
           // "title": "Tung Chung Line Extension",
           "title": "Key Information",
           "type": "image",
@@ -358,7 +359,8 @@ var APP_DATA_EN = {
         },
         {
           "yaw": 0.8856312512831259,
-          "pitch": -0.11099622137841557,
+          // "pitch": -0.11099622137841557,
+          "pitch": -0.0692345793969289,
           "title": "Railway – Promoting all Aspects of Community Life",
           "type": "image",
           "image": "img/panels/Eng/P4.jpg",
@@ -373,7 +375,8 @@ var APP_DATA_EN = {
         },
         {
           "yaw": 1.3547675363481222,
-          "pitch": -0.11717409477731564,
+          // "pitch": -0.11717409477731564,
+          "pitch": -0.0692345793969289,
           "title": "Learn about Green Tung Chung",
           "type": "image",
           "image": "img/panels/Eng/P5.jpg",
@@ -388,7 +391,8 @@ var APP_DATA_EN = {
         },
         {
           "yaw": 1.8463200026451299,
-          "pitch": -0.11513563362007172,
+          // "pitch": -0.11513563362007172,
+          "pitch": -0.0692345793969289,
           "title": "Timetable",
           "type": "image",
           "image": "img/panels/Eng/P6.jpg",
@@ -466,25 +470,24 @@ var APP_DATA_EN = {
           "filename": "ve-room-large/Water.pdf",
           "order": "11"
         },
-        // Justin
-        {
-          "yaw": -0.40087073337594262,  // "yaw": -0.06087073337594262,
-          "pitch": 0.09287763958809904,  // "pitch": 0.13287763958809904,
-          "title": "3D Model of <br>Tung Chung West Station",
-          "type": "kiosksIcon",
-          "external": true,
-          "filename": "https://arup-group.github.io/Tung-Chung-3D-Map/ThreeJSModel/index.html?model=TCW",
-          "order": "9"
-        },
-        {
-          "yaw": 0.33087073337594262,
-          "pitch": 0.09287763958809904,
-          "title": "3D Model of <br>Tung Chung East Station",
-          "type": "kiosksIcon",
-          "external": true,
-          "filename": "https://arup-group.github.io/Tung-Chung-3D-Map/ThreeJSModel/index.html?model=TCE",
-          "order": "9"
-        },
+        // {
+        //   "yaw": -0.40087073337594262,  // "yaw": -0.06087073337594262,
+        //   "pitch": 0.09287763958809904,  // "pitch": 0.13287763958809904,
+        //   "title": "3D Model of <br>Tung Chung West Station",
+        //   "type": "kiosksIcon",
+        //   "external": true,
+        //   "filename": "https://arup-group.github.io/Tung-Chung-3D-Map/ThreeJSModel/index.html?model=TCW",
+        //   "order": "9"
+        // },
+        // {
+        //   "yaw": 0.33087073337594262,
+        //   "pitch": 0.09287763958809904,
+        //   "title": "3D Model of <br>Tung Chung East Station",
+        //   "type": "kiosksIcon",
+        //   "external": true,
+        //   "filename": "https://arup-group.github.io/Tung-Chung-3D-Map/ThreeJSModel/index.html?model=TCE",
+        //   "order": "9"
+        // },
       ]
     },
   ],
