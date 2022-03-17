@@ -72,7 +72,7 @@ var APP_DATA = {
         },
         {
           "yaw": -0.06087073337594262,
-          "pitch": -0.0692345793969289,
+          "pitch": -0.0392345793969289,
           "title": "屯門南延綫概覽",
           "type": "image",
           "image": "img/panels/Chi/P2.jpg",
