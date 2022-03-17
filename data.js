@@ -327,7 +327,7 @@ var APP_DATA_EN = {
         {
           "yaw": -0.06087073337594262,
           // "pitch": -0.13287763958809904,
-          "pitch": -0.0692345793969289,
+          "pitch": -0.0892345793969289,
           "title": "Tuen Mun South Extension at a Glance",
           "type": "image",
           "image": "img/panels/Eng/P2.jpg",
