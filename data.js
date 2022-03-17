@@ -171,7 +171,7 @@ var APP_DATA = {
         },
         {
           "yaw": 2.140901022390954,
-          "pitch": 0.14008539578129317,
+          "pitch": 0.14208539578129317,
           "title": "查詢 / 提交意見",
           "type": "feedback",
           "external": true,
@@ -180,7 +180,7 @@ var APP_DATA = {
         },
         {
           "yaw": 2.295470892986015,
-          "pitch": 0.0948020703894268,
+          "pitch": 0.14208539578129317,
           "title": "暂无",
           "type": "radial",
           "external": true,
@@ -416,7 +416,7 @@ var APP_DATA_EN = {
         },
         {
           "yaw": 2.140901022390954,
-          "pitch": 0.09008539578129317,
+          "pitch": 0.14208539578129317,
           "title": "Enquiry / Submit Feedback",
           "type": "feedback",
           "external": true,
@@ -425,7 +425,7 @@ var APP_DATA_EN = {
         },
         {
           "yaw": 2.295470892986015,
-          "pitch": 0.0948020703894268,
+          "pitch": 0.14208539578129317,
           "title": "暂无",
           "type": "radial",
           "external": true,
