@@ -166,7 +166,7 @@ var APP_DATA = {
           "type": "model",
           "external": true,
           // "filename": "https://tungchunglineextension.virtual-engage.com/ThreeJSModel/index.html",
-          "filename": "https://arup-group.github.io/Tung-Chung-3D-Map/ThreeJSModel/index.html?model=TCLX",
+          "filename": "https://arup-group.github.io/Tuen-Mun-3D-Map/",
           "order": "9"
         },
         {
@@ -411,7 +411,7 @@ var APP_DATA_EN = {
           "type": "model",
           "external": true,
           // "filename": "https://tungchunglineextension.virtual-engage.com/ThreeJSModel/index.html",
-          "filename": "https://arup-group.github.io/Tung-Chung-3D-Map/ThreeJSModel/index.html?model=TCLX",
+          "filename": "https://arup-group.github.io/Tuen-Mun-3D-Map/",
           "order": "9"
         },
         {
