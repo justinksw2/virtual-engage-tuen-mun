@@ -180,7 +180,7 @@ var APP_DATA = {
         },
         {
           "yaw": 2.295470892986015,
-          "pitch": 0.14208539578129317,
+          "pitch": 0.14708539578129317,
           "title": "暂无",
           "type": "radial",
           "external": true,
@@ -425,7 +425,7 @@ var APP_DATA_EN = {
         },
         {
           "yaw": 2.295470892986015,
-          "pitch": 0.14208539578129317,
+          "pitch": 0.14708539578129317,
           "title": "暂无",
           "type": "radial",
           "external": true,
