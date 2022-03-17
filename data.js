@@ -343,7 +343,7 @@ var APP_DATA_EN = {
         {
           "yaw": 0.4838613859037473,
           // "pitch": -0.11939070469195966,
-          "pitch": -0.0692345793969289,
+          "pitch": -0.0792345793969289,
           "title": "Design Features",
           "type": "image",
           "image": "img/panels/Eng/P3.jpg",
