@@ -118,14 +118,14 @@ var APP_DATA = {
         {
           "yaw": 1.3547675363481222,
           "pitch": -0.0692345793969289,
-          "title": "設施換新",
+          "title": "重置設施換新LOOK",
           "type": "image",
           "image": "img/panels/Chi/P5.jpg",
           "order": "7",
           "gallery": [
             {
               "image": "img/panels/Chi/P5.jpg",
-              "caption": "設施換新",
+              "caption": "重置設施換新LOOK",
               "alt": ""
             },
           ]
@@ -133,14 +133,14 @@ var APP_DATA = {
         {
           "yaw": 1.8463200026451299,
           "pitch": -0.0692345793969289,
-          "title": "時間表",
+          "title": "項目時間表",
           "type": "image",
           "image": "img/panels/Chi/P6.jpg",
           "order": "7",
           "gallery": [
             {
               "image": "img/panels/Chi/P6.jpg",
-              "caption": "時間表",
+              "caption": "項目時間表",
               "alt": ""
             },
           ]
@@ -312,7 +312,7 @@ var APP_DATA_EN = {
         {
           "yaw": -0.9533446783720194,
           "pitch": -0.0692345793969289,
-          "title": "The Railway Keeps the City Moving",
+          "title": "Railways Keeps the City Moving",
           "type": "image",
           "image": "img/panels/Eng/P1.jpg",
           "order": "3",
@@ -392,14 +392,14 @@ var APP_DATA_EN = {
           "yaw": 1.8463200026451299,
           // "pitch": -0.11513563362007172,
           "pitch": -0.0692345793969289,
-          "title": "Timetable",
+          "title": "Project Timeline",
           "type": "image",
           "image": "img/panels/Eng/P6.jpg",
           "order": "7",
           "gallery": [
             {
               "image": "img/panels/Eng/P6.jpg",
-              "caption": "Timetable",
+              "caption": "Project Timeline",
               "alt": "Consultation for preliminary design phase is in progress. The Tung Chung Line Extension is expected to be completed in 2029."
             },
           ]
