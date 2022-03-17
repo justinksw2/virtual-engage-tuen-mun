@@ -161,7 +161,7 @@ var APP_DATA = {
         // },
         {
           "yaw": -1.0304647290410698,
-          "pitch": 0.11003330480693151,
+          "pitch": 0.10003330480693151,
           "title": "屯門南站立體模型",
           "type": "model",
           "external": true,
@@ -406,7 +406,7 @@ var APP_DATA_EN = {
         },
         {
           "yaw": -1.0304647290410698,
-          "pitch": 0.09003330480693151,
+          "pitch": 0.10003330480693151,
           "title": "3D Model of Tung Chung Line Extension",
           "type": "model",
           "external": true,
