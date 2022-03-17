@@ -87,7 +87,7 @@ var APP_DATA = {
         },
         {
           "yaw": 0.4838613859037473,
-          "pitch": -0.0692345793969289,
+          "pitch": -0.0792345793969289,
           "title": "設計特色",
           "type": "image",
           "image": "img/panels/Chi/P3.jpg",
