@@ -37,7 +37,7 @@ var APP_DATA = {
 
         {
           "yaw": -2.2734579044971213,
-          "pitch": -0.16549354180301677,
+          "pitch": -0.13549354180301677,
           "title": "屯門活力社區",
           "type": "video",
           "image": "img/banners/Explainer-video-cover.PNG",
@@ -293,7 +293,7 @@ var APP_DATA_EN = {
       "infoHotspots": [
         {
           "yaw": -2.2734579044971213,
-          "pitch": -0.12549354180301677,
+          "pitch": -0.13549354180301677,
           "title": "Tuen Mun South Station",
           "type": "video",
           "image": "img/banners/Explainer-video-cover.PNG",
