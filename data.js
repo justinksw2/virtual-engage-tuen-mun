@@ -40,7 +40,7 @@ var APP_DATA = {
           "pitch": -0.13549354180301677,
           "title": "屯門活力社區",
           "type": "video",
-          "image": "img/banners/Explainer-video-cover.PNG",
+          "image": "img/banners/marketing-video-cover.JPG",
           "link": "https://youtu.be/ATBPziOJimU",
           "alt": "",
           "order": "1"
@@ -296,7 +296,7 @@ var APP_DATA_EN = {
           "pitch": -0.13549354180301677,
           "title": "New Stations at Tuen Mun",
           "type": "video",
-          "image": "img/banners/Explainer-video-cover.PNG",
+          "image": "img/banners/cover2.JPG",
           "link": "https://youtu.be/_iPzNmwxbZE",
           "order": "1"
         },
@@ -305,7 +305,7 @@ var APP_DATA_EN = {
           "pitch": -0.0692345793969289,
           "title": "New Stations at Tuen Mun",
           "type": "video",
-          "image": "img/banners/marketing-video-cover.JPG",
+          "image": "img/banners/cover2.JPG",
           "link": "https://youtu.be/_iPzNmwxbZE",
           "order": "2"
         },
