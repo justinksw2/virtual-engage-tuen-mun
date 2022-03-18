@@ -65,7 +65,7 @@ var APP_DATA = {
           "gallery": [
             {
               "image": "img/panels/Chi/P1.jpg",
-              "caption": "鐵路。讓城市前行",
+              "caption": "鐵路。讓城市前行 | 為未來延綫",
               "alt": ""
             }
           ]
@@ -80,7 +80,7 @@ var APP_DATA = {
           "gallery": [
             {
               "image": "img/panels/Chi/P2.jpg",
-              "caption": "屯門南延綫概覽",
+              "caption": "屯門南延綫概覽 | 效益",
               "alt": ""
             },
           ]
@@ -95,7 +95,7 @@ var APP_DATA = {
           "gallery": [
             {
               "image": "img/panels/Chi/P3.jpg",
-              "caption": "設計特色",
+              "caption": "設計特色 | 發展及環保並重",
               "alt": ""
             },
           ]
@@ -110,7 +110,7 @@ var APP_DATA = {
           "gallery": [
             {
               "image": "img/panels/Chi/P4.jpg",
-              "caption": "鐵路延伸",
+              "caption": "鐵路延伸 | 全新車站",
               "alt": ""
             },
           ]
@@ -125,7 +125,7 @@ var APP_DATA = {
           "gallery": [
             {
               "image": "img/panels/Chi/P5.jpg",
-              "caption": "重置設施換新LOOK",
+              "caption": "重置設施渙新LOOK，為社區注入活力",
               "alt": ""
             },
           ]
@@ -319,7 +319,7 @@ var APP_DATA_EN = {
           "gallery": [
             {
               "image": "img/panels/Eng/P1.jpg",
-              "caption": "The Railway Keeps the City Moving",
+              "caption": "Railways Keeps City Moving | Extending the Railway for a Better Future",
               "alt": ""
             }
           ]
@@ -328,7 +328,7 @@ var APP_DATA_EN = {
           "yaw": -0.06087073337594262,
           // "pitch": -0.13287763958809904,
           "pitch": -0.0892345793969289,
-          "title": "Tuen Mun South Extension at a Glance",
+          "title": "Tuen Mun South Extension at a Glance | Benefits",
           "type": "image",
           "image": "img/panels/Eng/P2.jpg",
           "order": "4",
@@ -344,7 +344,7 @@ var APP_DATA_EN = {
           "yaw": 0.4838613859037473,
           // "pitch": -0.11939070469195966,
           "pitch": -0.0792345793969289,
-          "title": "Design Features",
+          "title": "Design Features | Development along with Environmental Protection",
           "type": "image",
           "image": "img/panels/Eng/P3.jpg",
           "order": "5",
@@ -360,7 +360,7 @@ var APP_DATA_EN = {
           "yaw": 0.8856312512831259,
           // "pitch": -0.11099622137841557,
           "pitch": -0.0692345793969289,
-          "title": "Railway Extension",
+          "title": "Railway Extension | New Stations",
           "type": "image",
           "image": "img/panels/Eng/P4.jpg",
           "order": "6",
@@ -376,7 +376,7 @@ var APP_DATA_EN = {
           "yaw": 1.3547675363481222,
           // "pitch": -0.11717409477731564,
           "pitch": -0.0692345793969289,
-          "title": "Re-provisioning of Facilities",
+          "title": "Re-provisioning of Facilities with a Fresh New Look for a Vibrant Community",
           "type": "image",
           "image": "img/panels/Eng/P5.jpg",
           "order": "7",
@@ -407,7 +407,7 @@ var APP_DATA_EN = {
         {
           "yaw": -1.0304647290410698,
           "pitch": 0.10003330480693151,
-          "title": "3D Model of Tung Chung Line Extension",
+          "title": "3D Model of Tuen Mun South Extension",
           "type": "model",
           "external": true,
           // "filename": "https://tungchunglineextension.virtual-engage.com/ThreeJSModel/index.html",
