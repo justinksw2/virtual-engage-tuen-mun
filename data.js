@@ -58,7 +58,7 @@ var APP_DATA = {
         {
           "yaw": -0.9533446783720194,
           "pitch": -0.0692345793969289,  // larger, down
-          "title": "鐵路。讓城市前行",
+          "title": "鐵路。讓城市前行 | 為未來延綫",
           "type": "image",
           "image": "img/panels/Chi/P1.jpg",
           "order": "3",
@@ -73,7 +73,7 @@ var APP_DATA = {
         {
           "yaw": -0.06087073337594262,
           "pitch": -0.0892345793969289,
-          "title": "屯門南延綫概覽",
+          "title": "屯門南延綫概覽 | 效益",
           "type": "image",
           "image": "img/panels/Chi/P2.jpg",
           "order": "4",
@@ -88,7 +88,7 @@ var APP_DATA = {
         {
           "yaw": 0.4838613859037473,
           "pitch": -0.0792345793969289,
-          "title": "設計特色",
+          "title": "設計特色 | 發展及環保並重",
           "type": "image",
           "image": "img/panels/Chi/P3.jpg",
           "order": "5",
@@ -103,7 +103,7 @@ var APP_DATA = {
         {
           "yaw": 0.8856312512831259,
           "pitch": -0.0692345793969289,
-          "title": "鐵路延伸",
+          "title": "鐵路延伸 | 全新車站",
           "type": "image",
           "image": "img/panels/Chi/P4.jpg",
           "order": "6",
@@ -118,7 +118,7 @@ var APP_DATA = {
         {
           "yaw": 1.3547675363481222,
           "pitch": -0.0692345793969289,
-          "title": "重置設施換新LOOK",
+          "title": "重置設施渙新LOOK，為社區注入活力",
           "type": "image",
           "image": "img/panels/Chi/P5.jpg",
           "order": "7",
