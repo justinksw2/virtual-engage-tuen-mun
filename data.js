@@ -420,7 +420,7 @@ var APP_DATA_EN = {
           "title": "Enquiry / Submit Feedback",
           "type": "feedback",
           "external": true,
-          "link": "https://mtrtuenmunsouth.hk/activities/#contactinfo",
+          "link": "https://mtrtuenmunsouth.hk/activities/?lang=en#contactinfo",
           "order": "10"
         },
         {
