@@ -162,7 +162,7 @@ var APP_DATA = {
         {
           "yaw": -1.0304647290410698,
           "pitch": 0.10003330480693151,
-          "title": "屯門南站立體模型",
+          "title": "屯門南延綫立體模型",
           "type": "model",
           "external": true,
           // "filename": "https://tungchunglineextension.virtual-engage.com/ThreeJSModel/index.html",
