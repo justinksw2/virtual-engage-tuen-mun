@@ -294,10 +294,10 @@ var APP_DATA_EN = {
         {
           "yaw": -2.2734579044971213,
           "pitch": -0.13549354180301677,
-          "title": "Tuen Mun South Station",
+          "title": "New Stations at Tuen Mun",
           "type": "video",
           "image": "img/banners/Explainer-video-cover.PNG",
-          "link": "https://youtu.be/MV0dV59RuWk",
+          "link": "https://youtu.be/_iPzNmwxbZE",
           "order": "1"
         },
         {
