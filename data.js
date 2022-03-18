@@ -465,7 +465,7 @@ var APP_DATA_EN = {
         {
           "yaw": -1.6125671079424446,
           "pitch": 0.0645899554613063,
-          "title": "Guided Tour",
+          "title": "Exhibition Tour",
           "type": "GuidedTour",
           "htmlId": "GuidedTour",
           "image": "",
