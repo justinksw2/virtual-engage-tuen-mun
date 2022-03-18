@@ -3,6 +3,20 @@
 }
 
 .welcome2 {
+    /* position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -25%) scale(0);
+    transition: 200ms ease-in-out;
+    border-radius: 10px;
+    z-index: 50;
+    background-color: white;
+    width: 700px;
+    height: 300px;
+    max-width: 80%;
+    max-height: 80%;
+    font-size: 20px; */
+
     position: fixed;
     top: 40%;
     left: 50%;
@@ -11,10 +25,8 @@
     border-radius: 10px;
     z-index: 50;
     background-color: white;
-    /* width: 900px;
-    height: 400px; */
-    width: 700px;
-    height: 300px;
+    width: 900px;
+    height: 400px;
     max-width: 80%;
     max-height: 80%;
     font-size: 20px;
@@ -63,8 +75,13 @@
 }
 
 .welcome2-body {
+    /* color: rgb(105, 118, 128);
+    padding: 3% 5%;
+    height: calc(100% - 50px);
+    overflow: visible;
+    position: relative; */
+
     color: rgb(105, 118, 128);
-    /*padding: 30px 45px;*/
     padding: 3% 5%;
     height: calc(100% - 50px);
     overflow: visible;
@@ -72,31 +89,36 @@
 }
 
 .welcome2-content{
-    /*width: 470px;*/
-    /*padding: 0 20px;*/
-    padding: 0 2.5%;
-    /* width: 60%; */
+    /* padding: 0 2.5%;
     width: 80%;
     overflow: auto;
-    /* height: calc(100% - 68px); */
-    height: calc(100% - 40px);
+    height: calc(100% - 40px); */
+
+    padding: 0 2.5%;
+    width: 60%;
+    overflow: auto;
+    height: calc(100% - 68px);
 }
 
 .operation2{
-    color: rgb(105, 118, 128);
-    /* color: black; */
-    /* position: absolute; */
-    /*bottom: 10%;*/
-    /*padding-top: 3%; */
-    /* bottom: 8%; */
+    /* color: rgb(105, 118, 128);
     padding-top: 2%;
-    /*width: 430px;*/
-    /* width: 49%; */
     width: 100%;
-    /* margin: 0 20px; */
     margin: auto;
     padding-bottom: 1%;
     padding-right: 35%;
+    border-top: 1px solid rgb(208, 209, 213);
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between; */
+
+    color: rgb(105, 118, 128);
+    position: absolute;
+    bottom: 8%;
+    padding-top: 2%;
+    width: 49%;
+    margin: 0 20px;
+    padding-bottom: 1%;
     border-top: 1px solid rgb(208, 209, 213);
     display: flex;
     font-size: 20px;
@@ -236,40 +258,40 @@
         width: 120%;
     }
     .welcome2-content{
-        /* width: 65%; */
-        width: 100%;
+        /* width: 100%; */
+        width: 65%;
     }
     .operation2{
-        /* width: 52.5%; */
-        width: 100%;
+        /* width: 100%; */
+        width: 52.5%;
     }
 }
 
 @media screen and (max-width:820px) {
-   .welcome2-body{
-       padding: 13px 18px;
-       height: calc(100% - 30px);
-   }
-    .welcome2-content{
-       /* width: 68%; */
-       width: 100%;
+    .welcome2-body{
+        padding: 13px 18px;
+        height: calc(100% - 30px);
     }
-    .operation2{
-        /* width: 59%; */
-        width: 100%;
-        margin: 0 10px;
-    }
-    .welcome2-gif{
-        position: absolute;
-        bottom: -44px;
-        right: -64px;
-    }
-    .welcome2Start{
-        margin-left: 77%;
-    }
-    .lan_EN .welcome2-text{
-        line-height: 28px;
-    }
+     .welcome2-content{
+        /* width: 100%; */
+        width: 68%;
+     }
+     .operation2{
+        /* width: 100%; */
+         width: 59%;
+         margin: 0 10px;
+     }
+     .welcome2-gif{
+         position: absolute;
+         bottom: -44px;
+         right: -64px;
+     }
+     .welcome2Start{
+         margin-left: 77%;
+     }
+     .lan_EN .welcome2-text{
+         line-height: 28px;
+     }
 }
 
 @media screen and (max-width: 428px) {
@@ -286,7 +308,6 @@
         padding: 114px 10px 0;
     }
     .operation2{
-        /* width: 83%; */
         width: 100%;
         margin: 0 3%;
         font-size: 18px;
@@ -325,8 +346,8 @@
         padding: 114px 10px 0;
     }
     .operation2{
-        /* width: 83%; */
-        width: 100%;
+        width: 83%;
+        /* width: 100%; */
         margin: 0 3%;
         font-size: 18px;
         padding-top: 3%;
@@ -359,12 +380,12 @@
         line-height: 35px;
     }
     .welcome2-content{
-        /* width: 73%; */
-        width: 100%;
+        /* width: 100%; */
+        width: 73%;
     }
     .lan_EN .welcome2-content{
-        /* width: 75%; */
-        width: 100%;
+        /* width: 100%; */
+        width: 75%;
     }
     .welcome2-body{
         padding: 0 5%;
