@@ -312,7 +312,7 @@ var APP_DATA_EN = {
         {
           "yaw": -0.9533446783720194,
           "pitch": -0.0692345793969289,
-          "title": "Railways Keeps the City Moving",
+          "title": "Railways Keeps City Moving | Extending the Railway for a Better Future",
           "type": "image",
           "image": "img/panels/Eng/P1.jpg",
           "order": "3",
@@ -335,7 +335,7 @@ var APP_DATA_EN = {
           "gallery": [
             {
               "image": "img/panels/Eng/P2.jpg",
-              "caption": "Tuen Mun South Extension at a Glance",
+              "caption": "Tuen Mun South Extension at a Glance | Benefits",
               "alt": ""
             },
           ]
@@ -351,7 +351,7 @@ var APP_DATA_EN = {
           "gallery": [
             {
               "image": "img/panels/Eng/P3.jpg",
-              "caption": "Design Features",
+              "caption": "Design Features | Development along with Environmental Protection",
               "alt": ""
             },
           ]
@@ -367,7 +367,7 @@ var APP_DATA_EN = {
           "gallery": [
             {
               "image": "img/panels/Eng/P4.jpg",
-              "caption": "Railway Extension",
+              "caption": "Railway Extension | New Stations",
               "alt": ""
             },
           ]
@@ -383,7 +383,7 @@ var APP_DATA_EN = {
           "gallery": [
             {
               "image": "img/panels/Eng/P5.jpg",
-              "caption": "Re-provisioning of Facilities",
+              "caption": "Re-provisioning of Facilities with a Fresh New Look for a Vibrant Community",
               "alt": ""
             },
           ]
