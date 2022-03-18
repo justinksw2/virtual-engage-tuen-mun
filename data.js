@@ -454,7 +454,7 @@ var APP_DATA_EN = {
             },
             {
               "type": "linkWeb",
-              "link": "https://mtrtuenmunsouth.hk/",
+              "link": "https://mtrtuenmunsouth.hk/?lang=en",
               "external": true,
               "order": "13",
               "title": "Project Website"
