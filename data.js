@@ -41,7 +41,7 @@ var APP_DATA = {
           "title": "屯門活力社區",
           "type": "video",
           "image": "img/banners/Explainer-video-cover.PNG",
-          "link": "https://youtu.be/TYOSAD06ehk",
+          "link": "https://youtu.be/ATBPziOJimU",
           "alt": "",
           "order": "1"
         },
@@ -51,7 +51,7 @@ var APP_DATA = {
           "title": "站在屯門",
           "type": "video",
           "image": "img/banners/marketing-video-cover.JPG",
-          "link": "https://www.youtube.com/watch?v=ATBPziOJimU",
+          "link": "https://youtu.be/ATBPziOJimU",
           "alt": "",
           "order": "2"
         },
@@ -303,10 +303,10 @@ var APP_DATA_EN = {
         {
           "yaw": -1.33161493258044,
           "pitch": -0.0692345793969289,
-          "title": "Tuen Mun South Station",
+          "title": "New Stations at Tuen Mun",
           "type": "video",
           "image": "img/banners/marketing-video-cover.JPG",
-          "link": "https://www.youtube.com/watch?v=ATBPziOJimU",
+          "link": "https://youtu.be/_iPzNmwxbZE",
           "order": "2"
         },
         {
